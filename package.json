@@ -1,0 +1,18 @@
+{
+  "name": "contact-management-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack-win": "electron-packager ./ contact-manager --platform=win32 --arch=x64",
+    "pack-mac": "electron-packager ./ contact-manager --platform=darwin --arch=x64",
+    "pack-lin": "electron-packager ./ contact-manager --platform=linux --arch=x64"
+  },
+  "author": "Prashant Shinde",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^5.0.1",
+    "electron-packager": "^13.1.1"
+  }
+}

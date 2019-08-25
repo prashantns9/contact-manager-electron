@@ -1,0 +1,25 @@
+
+.action-btn{
+    color: #007BFF;
+    cursor: pointer;
+    margin: 0.5rem
+}
+
+.contact-card{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.avatar{
+    margin:auto;
+    border-radius: 50%;
+    border: 1px solid #cccccc;
+    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    padding-top: 0.6rem;
+}
+.contact-info{
+}
